@@ -1,3 +1,103 @@
 * {
-    background-color: lightskyblue;
+   background-color: peachpuff;
+    margin:10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+
+}
+
+.header {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.header h1 {
+    font-size: 60px
+}
+
+
+.navbar {
+    text-align: right;
+}
+
+.navbar a {
+    color: white;
+    font-size: 20px;
+}
+
+.aboutme {
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.aboutme h2 {
+    color: white;
+    text-align: center;
+}
+
+.aboutme p{
+    color: white;
+    text-align: center;
+}
+
+.aboutme img {
+    height: 400px;
+}
+
+.projects {
+    border: 3px solid black;
+    padding: 20px;
+}
+.projects h2{
+    color: white;
+    text-align: center;
+}
+
+.projects p{
+    color:white;
+    text-align: center;
+}
+
+#project1 {
+    border: 3px solid black;
+    width: 100%;
+}
+
+#project2 {
+    border: 3px solid black;
+    
+}
+
+#project3 {
+    border: 3px solid black;
+    
+}
+
+#project4 {
+    border: 3px solid black;
+    
+}
+
+#project5 {
+    border: 3px solid black;
+    
+}
+.contact {
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.contact h2 {
+    color: white;
+    text-align: center;
+}
+
+.contact p {
+    color: white;
+    text-align: center;
+}
+
+.contact a {
+    color: white;
+    font-size: 20px;
 }

@@ -22,15 +22,16 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport -->
     <div class="header">
-      <h1>This is my header</h1>
+      <h1>Welcome to My Portfolio!</h1>
     </div>
     <div class="navbar">
-      <a href="#">About Me</a>
-      <a href="#">Projects</a>
-      <a href="#">Contact</a>
+      <a href="#aboutme">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </div>
-    <div class="aboutme">
+    <div id="aboutme" class="aboutme">
       <h2>About Me</h2>
+
       <p>
         Welcome to my website! My name is Emerson Albert and I was born in
         Miami, Florida. I'm currently residing in Orlando, Florida where I
@@ -41,37 +42,51 @@ THEN I am presented with a responsive layout that adapts to my viewport -->
         been working on and I am very honored that you came to check me out and
         see the magic that I've developed.
       </p>
+      <img
+        id="pictureofme"
+        src="./assets/images/me.png"
+        alt="picture of Emerson"
+      />
     </div>
-    <div class="projects">
+
+    <div id="projects" class="projects">
       <h2>Projects</h2>
-      <p>Welcome to where the magic happens</p>
+      <p>(Where the magic happens)</p>
       <img
+        id="project1"
         src="./assets/images/under construction.png"
         alt="picture of a cone and the words 'under construction'"
       />
       <img
+        id="project2"
         src="./assets/images/under construction.png"
         alt="picture of a cone and the words 'under construction'"
       />
       <img
+        id="project3"
         src="./assets/images/under construction.png"
         alt="picture of a cone and the words 'under construction'"
       />
       <img
+        id="project4"
         src="./assets/images/under construction.png"
         alt="picture of a cone and the words 'under construction'"
       />
       <img
+        id="project5"
         src="./assets/images/under construction.png"
         alt="picture of a cone and the words 'under construction'"
       />
     </div>
-    <div class="contact">
+    <div id="contact" class="contact">
       <h2>Contact</h2>
       <p>
         Phone Number: 305-923-2033 Email: magicspoon123@gmail.com
-        <span id="github"><a href="#">GitHub</a></span>
-        <span id="instagram"><a href="#">Instagram</a></span>
+        <span id="github"
+          ><a href="https://github.com/E-Albert?tab=repositories"
+            >GitHub</a
+          ></span
+        >
       </p>
     </div>
   </body>
