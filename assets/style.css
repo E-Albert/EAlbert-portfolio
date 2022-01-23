@@ -5,3 +5,15 @@
     font-weight: 325;
 }
 
+#aboutmetext {
+    border: #6c757d 4px solid;
+    border-radius: 30px;
+    text-align: center;
+    
+
+}
+
+#aboutmetext h2 {
+    margin: 20px;
+    text-align: center;
+}
