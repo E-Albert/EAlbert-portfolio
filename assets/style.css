@@ -1,10 +1,11 @@
-* {
+/* * {
    background-color: peachpuff;
     margin:10px;
     font-family: "Lucida Console", "Courier New", monospace;
-    font-weight: bold;
+    font-weight: bold; */
 
-}
+/* }  */
+/* 
 
 .header {
     text-align: center;
@@ -100,4 +101,16 @@
 .contact a {
     color: white;
     font-size: 20px;
+} */
+ 
+#pickacard {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 325;
+}
+
+#treebanner {
+  width: 100%;
+  background-image: url(/assets/images/palmtrees.jpeg);
+  height: 405px;
 }
